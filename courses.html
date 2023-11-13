@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"> <!--faimly font-->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Courses </title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="imge/logo.png" alt="logo"></a>
+            <div class="nav-link" id="navicons">
+                <i class="fa fa-times"  onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html" >About</a></li>
+                    <li><a href="courses.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact </a></li>
+                
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()" ></i>
+        </nav>
+        <h1>Our courses</h1>
+    </section>
+
+    <section class="Course">
+        <h1>Courses we Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus similique nulla repellat reiciendis, laudantium non, beatae temporibus et facere qui quibusdam ducimus dolores voluptatibus</p>
+            </div>
+    
+            <div class="course-col">
+                <h3>Dgree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus similique nulla repellat reiciendis, laudantium non, beatae temporibus et facere qui quibusdam ducimus dolores voluptatibus </p>
+            </div>
+    
+            <div class="course-col">
+                <h3>Post graduation </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus similique nulla repellat reiciendis, laudantium non, beatae temporibus et facere qui quibusdam ducimus dolores voluptatibus</p>
+            </div>
+        </div>
+    
+       </section>
+
+       <!-- ----------------------start facilites----------------- -->
+<section class="facilites">
+    <h1>Our facilites</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    <div class="row">
+        <div class="facilites-col">
+            <img src="imge\library.png" alt="libray">
+            <h3>World class Library</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolor, placeat nisi </p>
+        </div>
+        <div class="facilites-col">
+            <img src="imge\basketball.png" alt="libray">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolor, placeat nisi </p>
+        </div>
+        <div class="facilites-col">
+            <img src="imge\cafeteria.png" alt="libray">
+            <h3>Testy and Healty Food</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolor, placeat nisi </p>
+        </div>
+    </div>
+</section>
+
+    
+
+
+
+    
+    <!-- ----------------Footer------------------------- -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae incidunt tenetur  corrupti aspernaturbr <br>  provident, numquam aut laudantium culpa, architecto.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with 
+        <i class="fa fa-heart-o"></i> by  Esay Tutorials</p>
+</section>
+
+
+
+</body>
+<script>
+    var icon=document.getElementById("navicons");
+    function hidemenu(){
+        icon.style.right='-200px';
+    }
+    function showmenu(){
+        icon.style.right='0';
+    }
+</script>
+</html>

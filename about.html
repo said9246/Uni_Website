@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"> <!--faimly font-->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>About </title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="imge/logo.png" alt="logo"></a>
+            <div class="nav-link" id="navicons">
+                <i class="fa fa-times"  onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html" >About</a></li>
+                    <li><a href="courses.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact </a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()" ></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+
+<!-- ---------------About us-------------------------- -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>we are the world largest University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At possimus hic iste voluptas laborum temporibus eum nobis modi similique non tenetur ut itaque, atque magni harum perferendis saepe ullam suscipit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas recusandae praesentium impedit soluta autem sit laudantium vel ab! Quidem maxime accusantium nulla atque fugit doloremque ea quas cupiditate eveniet temporibus?</p>
+                <a href="#" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="imge/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------Footer------------------------- -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae incidunt tenetur  corrupti aspernaturbr <br>  provident, numquam aut laudantium culpa, architecto.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with 
+        <i class="fa fa-heart-o"></i> by  Esay Tutorials</p>
+</section>
+
+
+
+</body>
+<script>
+    var icon=document.getElementById("navicons");
+    function hidemenu(){
+        icon.style.right='-200px';
+    }
+    function showmenu(){
+        icon.style.right='0';
+    }
+</script>
+</html>
